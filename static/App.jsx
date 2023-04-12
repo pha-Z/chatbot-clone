@@ -1,7 +1,7 @@
 const App = () => {
     const [messageHistory, setMessageHistory] = React.useState([
         { 'role': 'user', 'content': 'this is a test. confirm?' },
-        { 'role': 'assistant', 'content': 'yes. confirm.' },
+        { 'role': 'assistant', 'content': 'As an AI language model bla bla bla... yes. confirm.' },
     ])
 
     async function handleSubmit(event) {
